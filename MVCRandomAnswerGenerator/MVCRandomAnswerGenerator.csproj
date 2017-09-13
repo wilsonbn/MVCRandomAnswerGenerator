@@ -242,7 +242,7 @@
                              DeployDefaultTarget=WebPublish;
                              WebPublishMethod=FileSystem;
                              DeleteExistingFiles=True;
-                             publishUrl=c:\output;
+                             publishUrl=bin\Release\PublishOutput;
 							 PublishProfile=FolderProfile;
 "
              ContinueOnError="false" />
