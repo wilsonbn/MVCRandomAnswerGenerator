@@ -243,6 +243,7 @@
                              WebPublishMethod=FileSystem;
                              DeleteExistingFiles=True;
                              publishUrl=c:\output;
+							 PublishProfile=$(Configuration);
 "
              ContinueOnError="false" />
   </Target>
