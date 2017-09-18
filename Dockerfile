@@ -15,4 +15,4 @@ RUN powershell -NoProfile -Command \
 EXPOSE 8000
 
 # The final instruction copies the site you published earlier into the container.
-ADD MVCRandomAnswerGenerator/bin/Release/PublishOutput /randomanswers
+ADD Package /randomanswers
