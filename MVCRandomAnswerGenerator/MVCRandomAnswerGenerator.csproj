@@ -244,6 +244,7 @@
                              DeleteExistingFiles=True;
                              publishUrl=bin\Release\PublishOutput;
               							 PublishProfile=FolderProfile;
+                             CreatePackageOnPublish=true;
                              IncludeIisSettings=true;
                              IncludeAppPool=true;
 "
