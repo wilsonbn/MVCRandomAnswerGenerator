@@ -245,7 +245,7 @@
                              WebPublishMethod=FileSystem;
                              DeleteExistingFiles=True;
                              publishUrl=bin\Release\PublishOutput;
-              							 PublishProfile=FolderProfile;
+                             PublishProfile=FolderProfile;
                              CreatePackageOnPublish=true;
                              IncludeIisSettings=true;
                              IncludeAppPool=true;
