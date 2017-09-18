@@ -247,7 +247,10 @@
                              IncludeIisSettings=true;
                              IncludeAppPool=true;
 "
-             ContinueOnError="false" />
+             ContinueOnError="false">
+      <Output TaskParameter="TargetOutputs" ItemName="CompiledAssembly" />
+    </MSBuild>
+      
   </Target>
   <!--
   /p:Configuration=Release ^ 
