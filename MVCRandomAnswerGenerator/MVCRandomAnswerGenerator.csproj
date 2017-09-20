@@ -241,11 +241,11 @@
     <MSBuild Projects="$(ProjectName).csproj"
              Properties="Configuration=$(Configuration);
                              DeployOnBuild=true;
-                             DeployDefaultTarget=WebPublish;
+                             DeployDefaultTarget=Package;
                              WebPublishMethod=FileSystem;
                              DeleteExistingFiles=True;
-                             publishUrl=bin\Release\PublishOutput;
-              							 PublishProfile=FolderProfile;
+                             publishUrl=obj\Release\PublishOutput;
+                             PublishProfile=FolderProfile;
                              CreatePackageOnPublish=true;
                              IncludeIisSettings=true;
                              IncludeAppPool=true;
