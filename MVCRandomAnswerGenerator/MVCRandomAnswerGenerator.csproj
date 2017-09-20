@@ -247,8 +247,6 @@
                              publishUrl=obj\Release\PublishOutput;
                              PublishProfile=FolderProfile;
                              CreatePackageOnPublish=true;
-                             IncludeIisSettings=true;
-                             IncludeAppPool=true;
 "
              ContinueOnError="false">
       <Output TaskParameter="TargetOutputs" ItemName="CompiledAssembly" />
